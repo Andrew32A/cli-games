@@ -9,8 +9,8 @@ while player == False:
     # Get player input
     player = input("Bear, Ninja, or Cowboy? > ").lower()
     
-    if player != "bear" or "ninja" or "cowboy" or False:
-      print(f"{spacing}{player} is not a Bear, Ninja, or Cowboy. Please input a valid role.{spacing}")
+    # if player != "bear" or "ninja" or "cowboy" or False:
+    #   print(f"{spacing}{player} is not a Bear, Ninja, or Cowboy. Please input a valid role.{spacing}")
 
     # Compare computer and player role
     if computer == player:
