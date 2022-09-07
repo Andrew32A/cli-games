@@ -44,6 +44,9 @@ def ninja():
         print(f"{spacing}You win!! Ninja is faster than cowboy")
         score += 1
 
+# Welcome message
+print(f"Welcome to Bear Ninja Cowboy!{spacing}")
+
 # Ask for rules
 rules = input("Would you like the instructions for BNC? (Yes/No) > ").lower()
 if rules == "yes":
